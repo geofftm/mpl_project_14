@@ -2,7 +2,7 @@
 //  main.cpp
 //  Chapter2Project_Loop
 //
-//  Created by Geoffrey Matis on 1/30/22.
+//  Created by  on 1/30/22.
 //
 
 #include <iostream>
