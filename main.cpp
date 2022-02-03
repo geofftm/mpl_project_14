@@ -2,7 +2,7 @@
 //  main.cpp
 //  Chapter2Project_Loop
 //
-//  Created by  on 1/30/22.
+//  Created by Geoffrey Matis on 1/30/22.
 //
 
 #include <iostream>
@@ -20,10 +20,10 @@ int main() {
     {
         cout << "Enter the score received for Exercise " << numberOfExercisesDisplay << ": "; // User input - actual score for the current exercise.
         cin >> score; // initializing the variable with the current input
-        scoreSum+= score; // initializing the variable with sum of the actual scores on each iteration
+        scoreSum += score; // initializing the variable with sum of the actual scores on each iteration
         cout << "Enter the total points possible for Exercise " << numberOfExercisesDisplay << ": "; // User input - the total score possible for current input
         cin >> total; // initializing the variable with the current user input
-        totalSum += total; // initializing the variable that with total score sum on each iteration
+        totalSum += total; // initializing the variable with the total score sum on each iteration
         numberOfExercises--; // 1 is subtracted from the total number of exercises with each iteration so the loop will eventually break
         numberOfExercisesDisplay++; // Adding 1 to the exercise display with each iteration
     }
@@ -32,9 +32,9 @@ int main() {
     cout.setf(ios::showpoint);
     cout.precision(2);
     
-    avgScore = (scoreSum / totalSum) * 100; // initializing the variable by calculating the averaage of the all the actual scores
+    avgScore = (scoreSum / totalSum) * 100; // initializing variable by calculating the averaage of all the actual scores
     
-    cout << "Your total is " << scoreSum << " out of " << totalSum << ", or " << avgScore << "%" << endl; // out putting the results.
+    cout << "Your total is " << scoreSum << " out of " << totalSum << ", or " << avgScore << "%" << endl; // outputting the results.
     
     return 0;
         
